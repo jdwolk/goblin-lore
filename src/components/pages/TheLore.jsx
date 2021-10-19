@@ -28,10 +28,10 @@ const StyledContainer = styled(Container)`
 const Thingy = () => {
   return (
     <StyledContainer scrollAxis="vertical">
-      <Parallax x={['-50%', '50%']} className="parallax">
+      <Parallax x={['-20%', '20%']} className="parallax">
         <h1>Hi</h1>
       </Parallax>
-      <Parallax x={['50%', '-50%']} className="parallax">
+      <Parallax x={['20%', '-20%']} className="parallax">
         <h1>Hello</h1>
       </Parallax>
     </StyledContainer>
